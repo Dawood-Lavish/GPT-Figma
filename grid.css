@@ -1,0 +1,42 @@
+
+.All-Content{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "content1 content1 content1"
+    "content2 content2 content2"
+    "content3 content3 content3"
+    "footer footer footer"
+    ;
+    grid-gap: 16px;
+    }
+    nav{
+    grid-area:nav;  
+    height: fit-content;
+    }
+    
+    main{
+    grid-area: main;
+    border: 5px solid rgb(216, 17, 17);
+    width: fit-content;
+    height: fit-content;
+    margin: 4px;
+   
+    }
+    #content1{
+    grid-area: content1;
+    border: 5px solid rgb(230, 21, 21);
+    }
+    #content2{
+    grid-area: content2;
+    border: 5px solid rgb(214, 21, 21);
+    }
+    #content3{
+    grid-area: content3;
+    border: 5px solid rgb(209, 22, 22);
+    }
+    footer{
+    grid-area: footer;
+    border: 5px solid rgb(211, 16, 16);
+    }

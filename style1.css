@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 *{
     margin: 0;
@@ -5,39 +6,39 @@
 }
 body{
     background: #040C18;
-}
-.All-Content{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    border: 2px solid rgb(14, 10, 10);
     font-family: 'Manrope', sans-serif;
 }
-.All-Content>.navigation{
-    border: 5px solid black;
+.All-Content>nav>.navigation{
     display: flex;
-    justify-content: space-between;
-    height: fit-content;
+    justify-content: center;
     height: 93px;
     margin: 26px;
 }
-.navigation>.nav{
+.navigation>.nav-i{
     display: flex;
+    padding: 10px;
+    padding-left: 157px;
 }
-.nav>li{
+.nav-i>li{
     padding: 28px;
     list-style: none;
 }
-.nav>li>a{
+.nav-i>li>a{
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 22px;
 }
-.nav>#ak-47>a{
+.nav-i>#ak-47>a{
     background: #ff4820;
-    padding: 19px;
-    border-radius: 13px;
+    padding: 16px;
+    border-radius: 0 30px;
+}
+.nav-i>#ak-47>a:hover{
+    background:white;
+    color: #ff4820;
+    padding: 16px;
+    border-radius: 0 30px;   
 }
 .navigation>ul{
     display: flex;
@@ -46,9 +47,87 @@ body{
     padding: 36px;
     list-style: none;
 }
+.navigation>ul>li>img{
+    height: 20px;
+    padding-top:5px;
+}
 .navigation>ul>li>a{
         text-decoration: none;
         color: white;
         font-weight: 500;
         font-size: 22px;
+        padding: 13px;
+         border-radius: 0 20px;
+}
+.navigation>ul>li>a:hover{
+        color: black;
+        background-color: white;
+}
+main>.capital-writing{
+     margin: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main>.capital-writing>.writing{       
+height:853px;
+  width: 674px;
+  margin: 46px;
+}
+main>.capital-writing>.writing>h1{
+ background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 6vw;
+ filter: brightness(1.2);
+ line-height: 117px;
+ letter-spacing: -2.48px
+}
+main>.capital-writing>.writing>p{
+    font-size: 26px;
+  line-height: 34px;
+  color: #81afdd;
+  margin-top: 1.5rem;
+}
+main>.capital-writing>.writing>.input-btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(185, 190, 255);
+    margin: 1px;
+    width: inherit;
+    height: 84px;
+    margin-top: 38px;
+}
+main>.capital-writing>.writing>.input-btn>input{
+    font-size: 28px;
+    padding-left: 33px;
+    width: 500px;
+}
+main>.capital-writing>.writing>.input-btn>button{
+    font-size: 26px;
+    width: 180px;
+    color: white;
+    background-color: #ff4820;
+}
+main>.capital-writing>.writing>.last-pic{
+    display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+    padding-top: 54px;
+}
+main>.capital-writing>.writing>.last-pic>p{
+    color: white;
+}
+main>.capital-writing>.pic{
+    display: flex;
+    justify-content: center;
+    height:635px;
+    width: 630px;
+  margin: 100px;
+}
+main>.capital-writing>.pic>img{
+    width:inherit;
+    filter: brightness(1.3);
 }
