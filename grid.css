@@ -30,15 +30,16 @@
     }
     #content2{
     grid-area: content2;
-    border: 5px solid rgb(214, 21, 21);
     margin: 4px;
     height: fit-content;
     }
     #content3{
+    margin: 4px;
     grid-area: content3;
-    border: 5px solid rgb(209, 22, 22);
+    height: fit-content;
     }
     footer{
+     height: fit-content;
+    margin: 4px;
     grid-area: footer;
-    border: 5px solid rgb(211, 16, 16);
     }
