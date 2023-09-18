@@ -2,12 +2,12 @@
 .All-Content{
     display: grid;
     grid-template-areas: 
-    "nav nav nav"
-    "main main main"
-    "content1 content1 content1"
-    "content2 content2 content2"
-    "content3 content3 content3"
-    "footer footer footer"
+    "nav"
+    "main"
+    "content1"
+    "content2"
+    "content3"
+    "footer"
     ;
     grid-gap: 16px;
     }

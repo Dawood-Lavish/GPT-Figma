@@ -7,12 +7,17 @@
 body{
     background: #040C18;
     font-family: 'Manrope', sans-serif;
+    overflow:scroll;
 }
 .All-Content>nav>.navigation{
     display: flex;
     justify-content: center;
     height: 93px;
     margin: 26px;
+}
+.navigation>img{
+  width: fit-content;
+  padding-top: 9px;
 }
 .navigation>.nav-i{
     display: flex;
@@ -146,12 +151,10 @@ main>.slide-1{
     justify-content: space-between;
 }
 main>.slide-1>.im>img{
-    width: 7vw;
+    width:94px;
 }
 main>.slide-1>.im>img:hover{
     cursor: pointer;
-    width: 8vw;
-    background-color: white;
 }
 #content1>.page-1{
     display: flex;
@@ -372,21 +375,22 @@ font-weight: 800;
   margin-bottom: 7rem;
 }
 #content2>.page4{
-  width: 190vh;
-  height:20vh;
+  width: 1330px;
+  height: 137px;
   margin: auto;
   background:  linear-gradient(103.22deg,#ae67fa -13.86%,#f49867 99.55%);;
   margin-top: 200px;
   display: flex;
   border-radius: 25px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #content2>.page4>.head-para{
-  width: 75%;
   height:inherit;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 #content2>.page4>.head-para>p{
 color: white;
@@ -399,8 +403,6 @@ padding-left: 12px;
 #content2>.page4>.rounded-button{
   width: 21%;
   display: flex;
-  justify-content: end;
-  align-items: center;
 }
 #content2>.page4>.rounded-button>button{
   height: 57px;
