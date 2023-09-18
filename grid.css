@@ -1,45 +1,49 @@
-
-.All-Content{
+.All-Content {
     display: grid;
-    grid-template-areas: 
-    "nav"
-    "main"
-    "content1"
-    "content2"
-    "content3"
-    "footer"
+    grid-template-areas:
+        "nav"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer"
     ;
     grid-gap: 16px;
-    }
-    nav{
-    grid-area:nav;  
+}
+
+nav {
+    grid-area: nav;
     height: fit-content;
-    }
-    
-    main{
+}
+
+main {
     grid-area: main;
     width: fit-content;
     height: fit-content;
     margin: 4px;
-   
-    }
-    #content1{
+
+}
+
+#content1 {
     grid-area: content1;
     height: fit-content;
     margin: 4px;
-    }
-    #content2{
+}
+
+#content2 {
     grid-area: content2;
     margin: 4px;
     height: fit-content;
-    }
-    #content3{
+}
+
+#content3 {
     margin: 4px;
     grid-area: content3;
     height: fit-content;
-    }
-    footer{
-     height: fit-content;
+}
+
+footer {
+    height: fit-content;
     margin: 4px;
     grid-area: footer;
-    }
+}
