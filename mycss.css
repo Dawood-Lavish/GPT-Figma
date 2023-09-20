@@ -657,6 +657,9 @@ font-weight: 800;
     .nav-i a {
         display: none;
     }
+    .dropdown-content a{
+      display: block;
+    }
     
     .left-portion{
         padding: 0rem;
