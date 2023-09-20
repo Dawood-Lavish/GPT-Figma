@@ -1,4 +1,6 @@
-.main,
+html {
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -33,16 +35,16 @@ a {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 62px;
-    font-size: 25px;
+    gap: 35px;
+    font-size: 24px
 }
 
 .nav-i {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 26px;
-    font-size: 30px;
+    gap: 24px;
+    font-size: 28px;
 }
 
 #ak-47 {
@@ -138,23 +140,22 @@ width: 50%;
 .input-btn{
     display: flex;
     justify-content: space-between;
-    margin: 1px;
-    width: inherit;
-    height: 84px;
     margin-top: 38px;
 }
 .input-btn input{
     font-size: 28px;
     padding-left: 33px;
-    width: 500px;
     background: #031b34;
     color: white;
     border-radius: 15px;
     border-color:#031b34 ;
+    height: 64px;
+    width: 287px;
+    
 }
 .input-btn button{
     font-size: 26px;
-    width: 180px;
+    border-radius: 12px;
     color: white;
     border-color: #ff4820;
     background-color: #ff4820;
@@ -206,10 +207,10 @@ width: 50%;
   font-size: 20px;
   line-height: 30px;
   color: #81afdd;
+  width: 70%;
 }
 .page-a .main-line{
     margin: 24px;
-  width: -moz-available;
 }
 .page-a .main-line .line{
 width: 80px;
@@ -669,11 +670,22 @@ font-weight: 800;
     .writing h1{
         font-size: 30px;
     }
-    .big-page .page-a{
-        flex-wrap: wrap;
+    .page-a{
+      flex-direction: column;
+      text-align: center;
     }
     .page-a .main-line{
-        margin: 0px;
+      width: 100%;
+      margin:0px ;
+    }
+    .page-a p{
+      width: 100%;
+    }
+    .color{
+      flex-direction: column;
+    }
+    .color .rounded-button{
+      width: 186px;
     }
     .page-b{
         flex-direction: column;
@@ -686,6 +698,9 @@ font-weight: 800;
     }
     .page-c .heading{
         width: 100%;
+    }
+    footer .footer-1 .footer-page .second .f1{
+      width: 100%;
     }
     
 }
