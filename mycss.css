@@ -665,8 +665,21 @@ font-weight: 800;
     .left-portion{
         padding: 0rem;
         width: 100%;
-
     }
+     .input-btn{
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+     }
+     .input-btn button{
+      width: 75%;
+      /* display: flex; */
+      /* align-items: center; */
+      text-align: center
+     }
+     .color .rounded-button button{
+      margin-bottom: 15px;
+     }
     .writing h1{
         font-size: 30px;
     }
